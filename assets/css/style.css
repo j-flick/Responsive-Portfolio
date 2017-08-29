@@ -232,3 +232,122 @@ input[type=submit] {
 	padding: 10px 30px;
 	cursor: pointer;
 }
+
+@media screen and (max-width: 980px) {
+
+	#masthead {
+		padding: 0 80px 0 125px;
+		position: static;
+	}
+
+	#main-container {
+		padding: 25px 0 0 125px;
+	}
+
+	.main-section {
+		width: 420px;
+	}
+	
+	.sidebar {
+		width: 270px;
+		margin-left: 40px;
+		float: left;
+	}
+
+	.auth-image {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.work {
+		width: 100%;
+		margin-bottom: 0px;
+	}
+
+	.work img {
+		height: 270px;
+	}
+
+	.work h3 {
+		bottom: 40px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	
+	#masthead {
+		padding: 0 20px 0 20px;
+		position: static;
+	}
+
+	#main-container {
+		padding: 0 20px;
+	}
+
+	.main-section {
+		width: 100%;
+		max-width: 100%;
+		margin-top: 10px;
+	}
+
+	.auth-image {
+		width: 330px;
+	}
+
+	.sidebar {
+		margin-left: 0;
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 40px;
+	}
+
+	.work {
+		width: 46%;
+	}
+
+	.work img {
+		height: 235px;
+	}
+
+	.work:nth-child(even) {
+		margin-right: 50px;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+
+	#masthead {
+		position: static;
+		padding: 0;
+	}
+
+	#logo {
+		width: 100%;
+	}
+
+	nav {
+		width: 100%;
+		margin-top: 0;
+		padding: 15px;
+	}
+
+	nav a {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	.auth-image {
+		width: 100%;
+	}
+
+	.work {
+		width: 100%;
+	}
+
+	.work img {
+		height: 400px;
+	}
+	
+}
